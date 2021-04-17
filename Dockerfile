@@ -1,1 +1,5 @@
-FROM quay.io/testquay1/nginx@sha256:95facc943914a4d0f8df55457b3a0ac68cfc2bd0988d946fc15ceef7f0cffb85
+FROM alpine:3.7
+RUN apk add --no-cache mysql-client
+ENTRYPOINT ["mysql"]
+
+LABEL description="This text illustrates5"
